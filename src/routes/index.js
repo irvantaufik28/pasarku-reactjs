@@ -25,6 +25,7 @@ function RoutesIndex() {
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path="/product" element={<Product />} />
           <Route path="/product" element={<Product />} />
+          <Route path="/homepage" element={<HomePage />} />
         </Routes>
       </div>
     </Router>
